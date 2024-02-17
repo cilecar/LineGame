@@ -71,7 +71,7 @@ const game = computed(() => {
                     </div>
                 </section>
             </div>
-            <div class="bg-zinc-900 h-max p-5 rounded-lg hover:scale-105 transition duration-500 disable-hover">
+            <div class="bg-zinc-900 h-max p-5 rounded-lg">
                 <p class="text-white text-xl mobile-game-text cursor-default">
                     {{ game.description }} 
                 </p>
